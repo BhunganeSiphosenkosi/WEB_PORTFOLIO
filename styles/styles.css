@@ -1,0 +1,159 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+  header {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  #main-section {
+    padding-top: 80px;
+    text-align: center;
+  }
+
+  .profile-picture {
+    border-radius: 50%;
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid wheat; /* Optional: Add a border to the profile picture */
+  }
+  
+  #bio p {
+    line-height: 1.6;
+  }
+  
+  #portfolio ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #portfolio li {
+    margin-bottom: 10px;
+  }
+  
+  #elevator-pitch img {
+    max-width: 60%;
+    max-height: 70%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+
+/* Portfolio Section Styles */
+#portfolio {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    margin: 0 20px 20px 20px;
+  flex: 0 0 calc(33.33% - 40px);
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project img:hover {
+    transform: scale(1.1);
+  }
+  
+  .project p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  ul li:last-child {
+    margin-right: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Main Content Link Styles */
+#main-section a {
+    color: #000; /* Change link color to black */
+    text-decoration: underline; /* Underline links */
+  }
+  
+  #main-section a:hover {
+    color: #333; /* Change color on hover to a slightly darker shade */
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
